@@ -18,11 +18,13 @@ body{
 *{
 	box-sizing: border-box;
 }
+
 ::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
 h1,h2,h3,h4,p,ol,ul,li,figure{
     margin: 0;
     padding: 0;
@@ -41,6 +43,7 @@ button, input{
     border: 0;
     vertical-align: middle;
 }
+
 :root{
     /* mode light */
    
@@ -48,6 +51,9 @@ button, input{
     /* mode dark */
   
 }
+
+/* main */ 
+
 header h1{
     line-height: 7rem;
     padding: 1rem 0;
