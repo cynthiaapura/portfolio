@@ -1,61 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
-html{ /* sélecteur propriété valeur */
-    font-size: 62.5%;  /* 1.000rem root em 10px */
-}
-
-body{
-    font: 1.6rem 'Roboto', sans-serif; /* 16px */
-    margin: 0;
-    letter-spacing: .1rem;
-    line-height: 1.6;    
-    background-color: var(--dark-theme);
-    color: var(--dark-police);
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    height: 100vh;
-}
-
-*{
-	box-sizing: border-box;
-}
-
-::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-h1,h2,h3,h4,p,ol,ul,li,figure{
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    font-weight: normal;
-}
-
-a{
-    text-decoration: none;
-    color: var(--dark-police);
-}
-
-button, input{
-    padding: 0;
-    background-color: inherit;
-    border: 0;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
     vertical-align: middle;
+    box-shadow: 0px 5px 12px #414141;
 }
 
-:root{
-    /* mode light */
-   
-
-    /* mode dark */
-  
+.nav-bar {
+    margin: auto 3rem 0 4rem;
+    padding: 10px 20px;
+    border-radius: 2px;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: inherit;
 }
 
-/* main */ 
-
-header h1{
-    line-height: 7rem;
-    padding: 1rem 0;
-    margin-left: 25%;
+.title {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    background: url("../asset/arriere_plan.jpg")center / cover;
+    padding: 20px;
+    font-size: 4rem;
+    padding: 15% 60% 20% 8%;
 }
