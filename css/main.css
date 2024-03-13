@@ -4,28 +4,47 @@ header {
     align-items: center;
     position: fixed;
     width: 100%;
-    vertical-align: middle;
     box-shadow: 0px 5px 12px #414141;
 }
 
-.nav-bar {
-    margin: auto 3rem 0 4rem;
+.navbar {
+    margin: 0 auto;
     padding: 10px 20px;
     border-radius: 2px;
     cursor: pointer;
     display: inline-flex;
     font-size: inherit;
+    justify-content: space-between;
+   /* background-color: rgba(0, 0, 0, 0.242); */
 }
 
-.title {
+.navbar a{
+    margin: 0 5rem 0 5rem;
+}
+
+.button_mode{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: .7rem;
+    border-radius: 5rem;
+    background-color: var(--grey);
+    box-shadow: 0px 5px 12px #414141;
+    cursor: pointer;
+}
+
+.img {
     flex: 1;
+    height: 100vh;
+    background: url("../asset/arriere_plan.jpg")center / cover;
+    z-index: -1;
+
+}
+
+section h1, h2{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    height: 100vh;
-    background: url("../asset/arriere_plan.jpg")center / cover;
-    padding: 20px;
-    font-size: 4rem;
     padding: 15% 60% 20% 8%;
 }
