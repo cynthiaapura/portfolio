@@ -4,7 +4,8 @@ header {
     align-items: center;
     position: fixed;
     width: 100%;
-    box-shadow: 0px 5px 12px #414141;
+    box-shadow: 0px 5px 12px #2B4A4Eff;
+    background-color: var(--green);
 }
 
 .navbar {
@@ -15,7 +16,6 @@ header {
     display: inline-flex;
     font-size: inherit;
     justify-content: space-between;
-   /* background-color: rgba(0, 0, 0, 0.242); */
 }
 
 .navbar a{
@@ -28,7 +28,7 @@ header {
     right: 30px;
     padding: .7rem;
     border-radius: 5rem;
-    background-color: var(--grey);
+    background-color: white;
     box-shadow: 0px 5px 12px #414141;
     cursor: pointer;
 }
@@ -36,9 +36,9 @@ header {
 .img {
     flex: 1;
     height: 100vh;
-    background: url("../asset/arriere_plan.jpg")center / cover;
+    background: url("../asset/fond_accueil.jpg")center / cover;
     z-index: -1;
-
+    display: flex;
 }
 
 section h1, h2{
@@ -47,5 +47,22 @@ section h1, h2{
     justify-content: center;
     align-items: flex-start;
     padding: 15% 60% 20% 8%;
-    
+}
+
+.general_section{
+    display: block;
+    background-color: var(--green);
+    height: 100vh;
+    margin: auto;
+    padding-top: 15rem;
+}
+
+.section-page{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    width: 100%;
+   background-color: var(--green);
 }

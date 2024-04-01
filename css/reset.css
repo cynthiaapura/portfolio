@@ -1,5 +1,6 @@
 @import url(./main.css);
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
 html{ /* sélecteur propriété valeur */
     font-size: 62.5%;  /* 1.000rem root em 10px */
 }
@@ -47,14 +48,11 @@ button, input{
 
 :root{
     /* mode light */
-    --orange: #D66835;
-    --white: #EDE6E3;
-    --grey: #DADAD9;
-    --dark_green: #36382E;
+    --green: #48747Cff;
+    --dark-gray: #2B4A4Eff;
+    --gray: #B1CECAff;
+    --green-2: #537E83ff;
 
     /* mode dark */
-    --dark_orange: #8A3F1E;
-    --black: #1D1D1B;
-    --dark_grey: #6A6A68;
-    --light_green: #6B7059;
+
 }
