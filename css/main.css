@@ -84,12 +84,43 @@ section h2{
     border-radius: 3rem;
     
 }
+
 section .gallery-primary img{
     width: 30%;
     padding: .5rem;
     margin-inline: 12rem;
     
 }
+
+.gallery-secondary{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 800px;
+    
+}
+
+.gallery-secondary a{
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+
+}
+
+.gallery-secondary img{
+    max-width: 100%;
+    height: auto;
+}
+
+.dsc-veille{
+    background-color: #fff;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-inline: 20rem;
+}
+
+
 
 footer{
     text-align: center;
