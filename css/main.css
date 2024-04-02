@@ -54,15 +54,45 @@ section h1, h2{
     background-color: var(--green);
     height: 100vh;
     margin: auto;
-    padding-top: 15rem;
+    padding-top: 11rem;
 }
 
-.section-page{
+section h2{
     text-align: center;
+    background-color: #C3DED9ff;
+    padding: .5rem .5rem .5rem .5rem;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    margin-inline: 20rem;
+    border-radius: .7rem;
+}
+
+.bg-tile{
+    background-color: #fff;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-inline: 20rem;
+}
+
+.gallery-primary{
+    padding: 1rem 0;
+    margin-inline: 10rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0;
+    border-radius: 3rem;
+    
+}
+section .gallery-primary img{
+    width: 30%;
+    padding: .5rem;
+    margin-inline: 12rem;
+    
 }
 
 footer{
     text-align: center;
     width: 100%;
-   background-color: var(--green);
+    background-color: var(--green);
 }
