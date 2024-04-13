@@ -36,9 +36,13 @@ header {
 .img {
     flex: 1;
     height: 100vh;
-    background: url("../asset/fond_accueil.jpg")center / cover;
+    background: url("../asset/fond_accueil.jpg")no-repeat fixed center center  / cover;
     z-index: -1;
     display: flex;
+}
+
+#name{
+    color: var(--white);
 }
 
 section h1, h2{
@@ -47,14 +51,15 @@ section h1, h2{
     justify-content: center;
     align-items: flex-start;
     padding: 15% 60% 20% 8%;
+    font-size: 4rem;
 }
 
 .general_section{
     display: block;
     background-color: var(--green);
-    height: 100vh;
     margin: auto;
-    padding-top: 11rem;
+    padding-top: 10rem;
+
 }
 
 section h2{
@@ -69,7 +74,7 @@ section h2{
 }
 
 .bg-tile{
-    background-color: #fff;
+    color: var(--white);
     margin-top: 3rem;
     margin-bottom: 3rem;
     margin-inline: 20rem;
@@ -81,36 +86,49 @@ section h2{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 0;
-    border-radius: 3rem;
+    border-radius: 1rem;
     
 }
 
-section .gallery-primary img{
-    width: 30%;
-    padding: .5rem;
+.gallery-primary img{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 40%;
     margin-inline: 12rem;
-    
+    background-color: var(--gray);
+    border-radius: 1rem;
+    justify-content: space-between;
 }
 
 .gallery-secondary{
+    padding: 1rem 0;
+    margin-inline: 10rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 3rem;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    max-width: 800px;
+    flex-wrap: wrap;
+    justify-content: center;
     
 }
 
 .gallery-secondary a{
-    flex: 1;
     margin: 0 10px;
     text-align: center;
-
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
 }
 
 .gallery-secondary img{
-    max-width: 100%;
-    height: auto;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    display: block;
+    
 }
 
 .dsc-veille{

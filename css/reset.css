@@ -10,8 +10,6 @@ body{
     margin: 0;
     letter-spacing: .1rem;
     line-height: 1.6;    
-    background-color: var(--dark-theme);
-    color: var(--dark-police);
     display: grid;
     grid-template-rows: auto 1fr auto;
     height: 100vh;
@@ -36,7 +34,7 @@ h1,h2,h3,h4,p,ol,ul,li,figure{
 
 a{
     text-decoration: none;
-    color: var(--dark-police);
+    color: var(--white);
 }
 
 button, input{
@@ -47,12 +45,14 @@ button, input{
 }
 
 :root{
-    /* mode light */
-    --green: #48747Cff;
-    --dark-gray: #2B4A4Eff;
-    --gray: #B1CECAff;
-    --green-2: #537E83ff;
-
     /* mode dark */
+    --green: rgb(72, 116, 124);
+    --dark-gray: rgb(43, 74, 78);
+    --gray: rgb(177, 206, 202);
+    --green-2: rgb(83, 126, 131);
+    --dark: rgb(0, 0, 0);
+    --white: rgb(255, 255, 255);
+
+    /* mode light */
 
 }
