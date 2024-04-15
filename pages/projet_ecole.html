@@ -16,27 +16,43 @@
             </button>
     
         <nav class="navbar">
-            <a href="#" id="home" class="button">Home</a>
-            <a href="#about" id="btn_about" class="button">A propos</a>
-            <a href="#skills" id="btn_skills" class="button">Compétences</a>
-            <a href="#projects" id="btn_projects" class="button">Projets</a>
-            <a href="#veille" id="btn_veille" class="button">Veille technologique</a>
-            <a href="#contacts" id="btn_contact" class="button">Contacts</a>
+            <a href="../index.html" id="home" class="button">Accueil</a>
+            <a href="#projet1" id="btn_projet" class="button">Refonte Web</a>
+            <a href="#projet2" id="btn_projet" class="button">TP Batman</a>
+            <a href="#projet3" id="btn_projet" class="button">TP JavaScript</a>
+            <a href="#projet4" id="btn_projet" class="button">TP PHP</a>
+            <a href="#projet5" id="btn_projet" class="button">Fake GMAIL</a>
         </nav>
     </header>
     <main>
-        <h1>En cours de réalisation</h1>
-        <p></p>
-        <p>
-            Ajout des projets réalisé au cours de ma formation
-            <ul class="gallery" id="gallery-project">
-                <li><img src="./asset/refont_web.png" alt="projet1" loading="lazy"></li>
-                <li><img src="./asset/tp_batman.png" alt="projet2" loading="lazy"></li>
-                <li><img src="./asset/tp_js.png" alt="projet3" loading="lazy"></li>
-                <li><img src="./asset/tp_php.png" alt="projet4" loading="lazy"></li>
-                <li><img src="./asset/tp_portfolio.png" alt="projet5" loading="lazy"></li>
-            </ul>
-        </p>
+        <h1>Réalisations au cours de ma formation</h1>
+
+        <section class="realisations">
+            <h2 class="refonte">
+               Refonte web
+            </h2>
+            <div class="projet-refonte">
+                Dans le cadre de notre cours de front-end, il nous à été demandé de faire le refonte d'un site web.
+                <a href="https://github.com/cynthiaapura/refonte_design">Lien vers le projet GitHub</a>
+                <br>
+                <a href="https://cynthiaapura.github.io/refonte_design/">
+                    <img src="../asset/refont_web.png" alt="projet1" loading="lazy">
+                </a>
+            </div>
+        </section>
+       
+            <!--
+            <img src="../asset/tp_batman.png" alt="projet2" loading="lazy">
+            <img src="../asset/tp_js.png" alt="projet3" loading="lazy">
+            <img src="../asset/tp_php.png" alt="projet4" loading="lazy">
+            <img src="../asset/home-page.png" alt="projet5" loading="lazy">
+            -->
     </main>
+    <footer>
+        <p>
+            &copy; - MIT - <time datetime="2023-09-07">2023</time>
+        </p>
+    </footer>
+    <script src="../js/app.js"></script>
 </body>
 </html>

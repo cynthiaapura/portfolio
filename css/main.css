@@ -4,6 +4,9 @@
 @import url(./projet_ecole.css);
 @import url(./veille.css);
 
+body{
+    background-color: var(--green);
+}
 header {
     display: flex;
     justify-content: space-between;
