@@ -64,7 +64,7 @@ section h1, h2{
     display: block;
     background-color: var(--green);
     margin: auto;
-    padding-top: 10rem;
+    padding-top: 5rem;
 
 }
 
@@ -141,10 +141,27 @@ section h2{
     margin-inline: 20rem;
 }
 
+.items {
+    text-align: center;
+    justify-content: space-between;
+}
 
+.items img{
+    padding: 1rem 0;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-inline: 3rem;
+    display: flexbox;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    width: 3%;
+    
+    
+}
 
-footer{
+footer p{
     text-align: center;
     width: 100%;
     background-color: var(--green);
+    line-height: 5.0rem;
 }
