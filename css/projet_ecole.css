@@ -1,10 +1,9 @@
-h1{
-    padding-top: 5rem;
+#primary-title{
+    color: var(--white);
+    
 }
 
-
-.projet-refonte img{
+#projets {
     width: 40%;
-    display: flex;
-    
+    place-items: center;
 }
