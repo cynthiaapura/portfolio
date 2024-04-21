@@ -1,9 +1,37 @@
-#primary-title{
+.primary-title{
     color: var(--white);
+    padding-top: 10rem;
+    padding-bottom: 6rem;
+    text-align: center;
+}
+
+
+#projets {
+    width: 50%;
+    height: auto; 
+    border-radius: 1rem;
+    margin-block: 6rem;
+    margin-left: 30rem;
+    margin-right: 5rem;
+}
+
+.projet {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.texte {
+    color: var(--white);
+    max-width: 60rem;
+    padding-left: 5rem;
+    margin-left: 3rem;
     
 }
 
-#projets {
-    width: 40%;
-    place-items: center;
+.lien-git{
+    text-decoration: underline;
+    text-decoration-color: var(--dark-gray);
+    text-decoration-thickness: 1.5px;
 }

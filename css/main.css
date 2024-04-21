@@ -162,6 +162,7 @@ section h2{
 }
 
 footer p{
+    color: var(--white);
     text-align: center;
     width: 100%;
     background-color: var(--green);
