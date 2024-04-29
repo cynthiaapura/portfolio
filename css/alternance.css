@@ -13,6 +13,7 @@
 
 .section_alt img{
     width: 30%;
+    padding-left: 20rem;
 }
 
 .about_alt{
@@ -56,6 +57,8 @@ h3 {
 li{
     padding-block: 1rem;
     font-size: smaller;
+    list-style-type: disc;
+    margin-left: 2rem;
 }
 
 p{

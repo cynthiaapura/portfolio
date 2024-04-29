@@ -55,23 +55,23 @@
                     <ul>
                         Chez Maarch, il y a quatres types de contrats de maintenance distincts :
                         <li>
-                            1. Partenaires : Maarch collabore étroitement avec des partenaires tels que Atol CD, qui ont un contrat d'intégrateur. Cela signifie qu'ils prospectent 
+                            Partenaires : Maarch collabore étroitement avec des partenaires tels que Atol CD, qui ont un contrat d'intégrateur. Cela signifie qu'ils prospectent 
                             de nouveaux clients, intègrent le logiciel et assurent sa maintenance de manière autonome. Lorsqu'ils rencontrent des anomalies ou des erreurs 
                             qu'ils ne parviennent pas à résoudre, les partenaires se tournent vers nous pour bénéficier d'un support complet que nous leur apportons.
                         </li>
                         <li>
-                            2. TMA (Tierce Maintenance Applicative) : Ces clients bénéficient d'un traitement particulier, car leur application est développée sur une branche 
+                            TMA (Tierce Maintenance Applicative) : Ces clients bénéficient d'un traitement particulier, car leur application est développée sur une branche 
                             distincte de celle du socle principal de Maarch Courrier. Cela permet aux développeurs de travailler en étroite collaboration avec le client pour 
                             résoudre les bugs ou faire évoluer le logiciel selon les besoins métiers spécifiques. Ainsi, les clients TMA disposent d'une application 
                             personnalisée avec des fonctionnalités différentes de celles du socle principal.
                         </li>
                         <li>
-                            3. Clients SaaS (Software as a Service) : Maarch gère ses propres serveurs où est hébergée l'application classique de Maarch Courrier. Les clients SaaS 
+                            Clients SaaS (Software as a Service) : Maarch gère ses propres serveurs où est hébergée l'application classique de Maarch Courrier. Les clients SaaS 
                             bénéficient d'une maintenance approfondie, avec des migrations gérées par l'équipe infrastructure de Maarch. En cas de problème lié au serveur, la prise 
                             en charge est rapide. De plus, les correctifs de bugs et les nouvelles fonctionnalités sont traités en priorité pour les clients SaaS.
                         </li>
                         <li>
-                            4. Clients on-premise : Ces clients ont un contrat de maintenance standard chez Maarch. Ils bénéficient d'un support technique et fonctionnel, 
+                            Clients on-premise : Ces clients ont un contrat de maintenance standard chez Maarch. Ils bénéficient d'un support technique et fonctionnel, 
                             ainsi que d'un accompagnement dans les migrations, les mises à jour et le paramétrage de l'application.
                         </li>
                     </ul>
@@ -127,18 +127,18 @@
                         En ce qui concerne les tickets d'anomalies, nous les classons en fonction de leur niveau de criticité, allant du plus critique au moins critique :
                         <ul>
                             <li>
-                                - Bloquant : la prise en charge est très urgente, et si un ticket bloquant est soumis, nous devons ajuster le sprint en cours. Cela signifie que 
+                                Bloquant : la prise en charge est très urgente, et si un ticket bloquant est soumis, nous devons ajuster le sprint en cours. Cela signifie que 
                                 l'utilisation de l'application est gravement affectée, et nous devons alors déployer rapidement une correction pour rétablir le service.
                             </li>
                             <li>
-                                - Majeur : le sujet implique un dysfonctionnement de l'application, mais n'empêche généralement pas son utilisation. Dans ce cas, un contournement 
+                                Majeur : le sujet implique un dysfonctionnement de l'application, mais n'empêche généralement pas son utilisation. Dans ce cas, un contournement 
                                 est souvent proposé en attendant une correction.
                             </li>
                             <li>
-                                - Sérieux : la prise en charge est un peu plus urgente, mais l'utilisation de l'application n'est toujours pas affectée.
+                                Sérieux : la prise en charge est un peu plus urgente, mais l'utilisation de l'application n'est toujours pas affectée.
                             </li>
                             <li>
-                                - Mineur : la prise en charge n'est pas urgente et n'impacte pas l'utilisation de l'application.                        
+                                Mineur : la prise en charge n'est pas urgente et n'impacte pas l'utilisation de l'application.                        
                             </li>
                         </ul>
 
@@ -147,28 +147,74 @@
                         User story
                     </h3>
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, ea.
+                        En tant qu'assistante du Product Owner, ma responsabilité consiste à reformuler les User Stories pour l'élaboration de nouvelles fonctionnalités. 
+                        L'objectif de cette reformulation est de clarifier explicitement les besoins du client.
+                        Lors du grooming, une des cérémonies Scrum, notre tâche est de présenter ces besoins aux développeurs. Ensuite, leur rôle est de confirmer la 
+                        faisabilité du développement, de proposer des solutions ainsi que des plans d'implémentation. Nous devons nous assurer que ces propositions 
+                        répondent aux besoins du client.
+                        Après avoir analysé les besoins, nous devons établir un devis et une proposition de développement pour le client. Si le client approuve à la 
+                        fois le développement et le budget proposé, le ticket peut alors être lancé en développement.                    
                     </p>
                     <h3 class="bugs">
                         Création des tickets de bugs
                     </h3>
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, ea.
+                        Une autre responsabilité du Product Owner est la création de tickets de bugs. Dans ce scénario, lorsqu'il s'agit d'un ticket de bug, 
+                        je dois suivre un modèle spécifique pour décrire l'anomalie rencontré. Tout d'abord, je dois préciser le contexte du bug, puis je dois tester le 
+                        comportement pour déterminer s'il est reproductible sur nos instances. Ensuite, je dois décrire étape par étape comment reproduire, 
+                        et inclure toutes les informations techniques pertinentes dans le ticket (fichiers logs, dump de la bdd, captures d'écran 
+                        de la console du navigateur, etc.).                    
                     </p>
                     <h3 class="ceremonies">
-                        Organisation et pilotage des cérémonies scrum
+                        Organisation et pilotage des cérémonies Scrum
                     </h3>
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, ea.
+                        L'une des responsabilités cruciales du Product Owner réside dans la préparation et la direction des cérémonies Scrum. Ces événements spécifiques 
+                        constituent le cadre du processus de développement Agile selon la méthodologie Scrum, offrant des opportunités de collaboration, de planification, 
+                        de révision et d'adaptation tout au long du cycle de développement.
+
+                        Les principales cérémonies comprennent :
+                        <ul>
+                            <li>
+                                Le Daily : Une réunion brève et quotidienne, généralement limitée à 15 minutes, se tenant chaque jour pendant le sprint, 
+                                rassemblant les développeurs et moi-même. Chaque membre de l'équipe partage ses réalisations depuis la dernière réunion, ses activités 
+                                actuelles et les éventuels obstacles rencontrés. L'accent est mis sur la communication en temps réel et la résolution rapide des problèmes, 
+                                me permettant de suivre l'avancement du sprint et de clarifier les points importants ou de revoir les échéances de livraison.
+                            </li>
+                            <li>
+                                Le Grooming : Un rendez-vous hebdomadaire, habituellement le lundi matin, où nous présentons aux développeurs les nouveaux éléments 
+                                ajoutés au backlog. Nous discutons de ces éléments, estimons la charge de travail et répondons éventuellement à des questions techniques 
+                                avec l'aide des développeurs pour soutenir les équipes de support N1 et N2.
+                            </li>
+                            <li>
+                                La Planification de Sprint : Une réunion qui lance chaque sprint, se tenant un mardi sur deux après la revue de fonctionnalités. 
+                                Sous la direction du Product Owner et moi-même, l'équipe Scrum discute des objectifs du sprint et sélectionne les éléments du backlog à réaliser. 
+                                Nous décomposons ensuite ces éléments en tâches et estimons la charge de travail.
+                            </li>
+                            <li>
+                                La Revue de Fonctionnalités : Organisée toutes les deux semaines, cette cérémonie permet de présenter aux équipes Maarch les avancées des 
+                                développements, de mettre en lumière les nouvelles fonctionnalités et de répondre à d'éventuelles questions. Une fois par mois, une revue 
+                                publique est organisée, avec la participation de clients. Mon rôle lors de ces sessions est de soutenir mon responsable et parfois de 
+                                réaliser les démonstrations pratiques.
+                            </li>
+                        </ul>
                     </p>
                     <h3 class="doc">
                         Mise à jour de la documentation
                     </h3>
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, ea.
+                        En qualité d'assistante Product Owner, je suis également responsable de la mise à jour de la documentation en ligne. Lors des sorties de 
+                        nouvelles versions, je révise les fonctionnalités obsolètes et j'incorpore les nouvelles fonctionnalités. Cependant, la gestion de la 
+                        partie technique est entièrement déléguée aux développeurs.
                     </p>
                 </div>
             </section>
     </main>
+    <footer>
+        <p>
+            &copy; - MIT - <time datetime="2023-09-07">2023</time>
+        </p>
+    </footer>
+    <script src="../js/app.js"></script>
 </body>
 </html>
