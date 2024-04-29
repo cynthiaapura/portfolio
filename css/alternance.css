@@ -15,8 +15,50 @@
     width: 30%;
 }
 
-.missions{
+.about_alt{
+    color: var(--white);
+    padding-block: 7rem;
+    margin-inline: 8rem;
+    font-size: large;
+}
+
+.missions {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+.support {
+    flex: 1; 
     background-color: var(--gray);
-    display: grid;
+    padding: 1.2rem;
+    margin-right: .6rem; 
+    margin-left: 5rem;
+    border-radius: .7rem;
+}
+
+.rd {
+    flex: 1; 
+    background-color: var(--gray);
+    padding: 1.2rem;
+    margin-right: 5rem; 
+    margin-left: .6rem;
+    border-radius: .7rem;
+}
+
+h3 {
+    font-size: x-large;
+    padding-block: 3rem;
+    text-align: center;
     
+}
+
+li{
+    padding-block: 1rem;
+    font-size: smaller;
+}
+
+p{
+    padding-block: 1rem;
+    font-size: smaller;
 }
