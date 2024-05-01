@@ -25,7 +25,7 @@
         </nav>
     </header>
     <main>
-        <h1>
+        <h1 class="e5_h1">
             Atelier Professionnel
         </h1>
         <section class="final_project">
@@ -39,8 +39,9 @@
                     Cette application, initialement simple et en ligne de commande, était destinée à un seul utilisateur. 
                     Notre mission consistait à désigner un administrateur par ligue et à lui permettre de recenser les employés 
                     de sa propre ligue. Une partie du travail était déjà réalisée, et nous avons eu pour tâche de développer le reste.
+                    Le développement de l'application s'est déroulé en quatre itérations distinctes qui seront détaillées plus bas.
 
-                    Le code de l'application est disponible par le biais de ce <a href="https://github.com/ounissaSadaoui/personnel" alt="projet java" target="_blank"> 
+                    Le code de l'application est disponible par le biais de ce <a href="https://github.com/ounissaSadaoui/personnel" alt="projet java" class="lien-git" target="_blank"> 
                         dépot GitHub </a>
                     <br>
 
@@ -68,36 +69,48 @@
                         </li>
                     </ul>
                 </p>
-                <p class="iteration_un">
-                Le développement de l'application s'est déroulé en quatre itérations distinctes, détaillées comme suit :
+                <h4>
+                    Itération 1
+                </h4>
+                <p class="iteration"> 
+                    1. Création d'une représentation des menus du dialogue en ligne de commande à l'aide d'un arbre heuristique
+                    <br>
+                    <img src="../asset/arbre_heuristique.png" alt="arbre heuristique" class="img_arbre">
+                    <br>
+                    2. Modélisation de la base de données à l'aide d'un schéma conceptuel (MCD)
+                    <br>
+                    <img src="../asset/MCD.svg" alt="mcd" class="img_mcd">
+                    <br>
+                    3. Adaptation de la couche métier pour gérer les dates d'arrivée et de départ de chaque employé, ainsi que l'ajustement                     
+                    des tests unitaires en conséquence
+                    <br>
+                    4. Vérification du bon fonctionnement de l'application grâce à des tests unitaires
+                </p>
 
-                    <h4>
-                        Itération 1 :
-                    </h4>
-                    Création d'une représentation des menus du dialogue en ligne de commande à l'aide d'un arbre heuristique.
-                    Modélisation de la base de données à l'aide d'un schéma conceptuel (MCD).
-                    Adaptation de la couche métier pour gérer les dates d'arrivée et de départ de chaque employé, ainsi que l'ajustement 
-                    des tests unitaires en conséquence.
-                    Vérification du bon fonctionnement de l'application grâce à des tests unitaires.
+                <h4>
+                    Itération 2
+                </h4>
+                <p class="iteration">
+                    1. Élaboration d'un script de création de table pour initialiser la base de données
+                    <br>
+                    2. Ajout de la fonctionnalité dans le dialogue en ligne de commande, obligeant la sélection d'un employé avant de 
+                    pouvoir le modifier ou le supprimer
+                    <br>
+                    3. Intégration de la possibilité de changer l'administrateur d'une ligue via le dialogue en ligne de commande
+                    <br>
+                    4. Mise en place de la gestion des dates dans le dialogue en ligne de commande
+
                 </p>
-                <p class="iteration_deux">
-                    <h4>
-                        Itération 2 :
-                    </h4>
-                    Élaboration d'un script de création de table pour initialiser la base de données.
-                    Ajout de la fonctionnalité dans le dialogue en ligne de commande, obligeant la sélection d'un employé avant de 
-                    pouvoir le modifier ou le supprimer.
-                    Intégration de la possibilité de changer l'administrateur d'une ligue via le dialogue en ligne de commande.
-                    Mise en place de la gestion des dates dans le dialogue en ligne de commande.
-                </p>
-                <p class="iteration_trois">
-                    <h4>
-                        Itération 3 :
-                    </h4>
+
+                
+                <h4>
+                    Itération 3
+                </h4>
+                <p class="iteration">
                     Conception de la maquette graphique de l'application.
                     Développement d'une classe fille de Passerelle pour gérer la connexion à la base de données via JDBC.
                     Ajout de fonctionnalités permettant la manipulation des données suivantes dans la base de données : 
-                    <ul>
+                    <ul class="list_iteration">
                         <li>
                             ajout, modification et lecture d'un root
                         </li>
@@ -112,17 +125,19 @@
                         </li>
                     </ul>
                 </p>
-                <p class="iteration_quatre">
-                    <h4>
-                        Itération 4 :
-                    </h4>
+
+                
+                <h4>
+                    Itération 4
+                </h4>
+                <p class="iteration">
                     Implémentation d'une interface graphique pour permettre aux administrateurs de gérer leurs ligues plus facilement.
                     Rédaction d'une documentation d'utilisation destinée aux administrateurs.
                     Sécurisation des mots de passe par hachage avant leur stockage dans la base de données.
                 </p>
 
             </div>
-            <a href="https://github.com/cynthiaapura/projet_maison_des_ligues" alt="projet web" target="_blank">
+            <a href="https://github.com/cynthiaapura/projet_maison_des_ligues" alt="projet web" class="lien-git" target="_blank">
                 <li> Projet web </li>
             </a>
         </section>

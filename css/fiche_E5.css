@@ -1,7 +1,21 @@
+.e5_h1{
+    display: flex;
+    text-align: center;
+    background-color: var(--gray);
+    padding: .5rem .5rem .5rem .5rem;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    margin-inline: 5rem;
+    border-radius: .7rem;
+    margin-top: 6rem;
+}
+
 .final_project {
     display: flex;
     flex-direction: row; 
     justify-content: space-between;
+    padding-top: 5rem;
 }
 
 .java {
@@ -13,7 +27,7 @@
     border-radius: .7rem;
 }
 
-.rd {
+.web {
     flex: 1; 
     background-color: var(--gray);
     padding: 1.2rem;
@@ -29,11 +43,47 @@ h3 {
     
 }
 
+h4{
+    padding-block: 2rem;
+    border: .1rem solid;
+    border-color: var(--dark);
+    border-radius: 1rem;
+    background-color: var(--dark-gray);
+    color: var(--white);
+    text-align: center;
+    font-size: larger;
+}
+
 li{
-    padding-block: 1rem;
     font-size: smaller;
     list-style-type: disc;
     margin-left: 2rem;
+}
+
+.iteration{
+    padding-block: 5rem;
+    margin-inline: 5rem;
+    line-height: 2.5;
+}
+
+.list_iteration{
+    margin-left: 5rem;
+}
+
+.img_arbre{
+    width: 50%;
+    height: auto; 
+    border-radius: 1rem;
+    margin-block: 6rem;
+    margin-left: 5rem;
+}
+
+.img_mcd{
+    width: 20%;
+    height: auto; 
+    border-radius: 1rem;
+    margin-block: 6rem;
+    margin-left: 5rem;
 }
 
 p{
