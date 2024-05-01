@@ -1,0 +1,42 @@
+.final_project {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+.java {
+    flex: 1; 
+    background-color: var(--gray);
+    padding: 1.2rem;
+    margin-right: .6rem; 
+    margin-left: 5rem;
+    border-radius: .7rem;
+}
+
+.rd {
+    flex: 1; 
+    background-color: var(--gray);
+    padding: 1.2rem;
+    margin-right: 5rem; 
+    margin-left: .6rem;
+    border-radius: .7rem;
+}
+
+h3 {
+    font-size: x-large;
+    padding-block: 3rem;
+    text-align: center;
+    
+}
+
+li{
+    padding-block: 1rem;
+    font-size: smaller;
+    list-style-type: disc;
+    margin-left: 2rem;
+}
+
+p{
+    padding-block: 1rem;
+    font-size: smaller;
+}

@@ -25,16 +25,113 @@
         </nav>
     </header>
     <main>
-        <h1>En cours de réalisation</h1>
-        <p>
-            Ajout des projets pour le BTS
-            <a href="https://github.com/ounissaSadaoui/personnel" alt="projet java" target="_blank"> 
-                <li> - Projet java </li>
-            </a>
+        <h1>
+            Atelier Professionnel
+        </h1>
+        <section class="final_project">
+            <div class="java">
+                <h3>
+                    Présentation du projet JAVA
+                </h3>
+                <p>
+                    Dans le cadre de notre projet final en programmation, nous avons travaillé sur l'amélioration du développement 
+                    d'une application web utilisée par un responsable de la M2L pour gérer les employés des ligues sportives. 
+                    Cette application, initialement simple et en ligne de commande, était destinée à un seul utilisateur. 
+                    Notre mission consistait à désigner un administrateur par ligue et à lui permettre de recenser les employés 
+                    de sa propre ligue. Une partie du travail était déjà réalisée, et nous avons eu pour tâche de développer le reste.
+
+                    Le code de l'application est disponible par le biais de ce <a href="https://github.com/ounissaSadaoui/personnel" alt="projet java" target="_blank"> 
+                        dépot GitHub </a>
+                    <br>
+
+                    L'application est conçue selon une architecture 3-tiers, et nous devions maintenir cette structure applicative. 
+                    Les niveaux d'autorisation des utilisateurs sont définis comme suit :
+
+                    <ul>
+                        <li>
+                            Un simple employé de ligue peut accéder à l'application comme à un annuaire, mais il n'a pas le droit de 
+                            modifier les données
+                        </li>
+                        <li>
+                            Un employé par ligue, en tant qu'administrateur, dispose des droits pour gérer la liste des employés de sa 
+                            ligue via une application bureau
+                        </li>
+                        <li>
+                            Le super-administrateur a des droits d'écriture sur tous les employés des ligues. Il peut également gérer 
+                            les comptes des administrateurs des ligues via une application accessible en ligne de commande
+                        </li>
+                        <li>
+                            Pour rendre l'application multi-utilisateurs, nous avons intégré l'utilisation d'une base de données
+                        </li>
+                        <li>
+                            Nous avons mis en place les trois niveaux d'autorisation mentionnés ci-dessus
+                        </li>
+                    </ul>
+                </p>
+                <p class="iteration_un">
+                Le développement de l'application s'est déroulé en quatre itérations distinctes, détaillées comme suit :
+
+                    <h4>
+                        Itération 1 :
+                    </h4>
+                    Création d'une représentation des menus du dialogue en ligne de commande à l'aide d'un arbre heuristique.
+                    Modélisation de la base de données à l'aide d'un schéma conceptuel (MCD).
+                    Adaptation de la couche métier pour gérer les dates d'arrivée et de départ de chaque employé, ainsi que l'ajustement 
+                    des tests unitaires en conséquence.
+                    Vérification du bon fonctionnement de l'application grâce à des tests unitaires.
+                </p>
+                <p class="iteration_deux">
+                    <h4>
+                        Itération 2 :
+                    </h4>
+                    Élaboration d'un script de création de table pour initialiser la base de données.
+                    Ajout de la fonctionnalité dans le dialogue en ligne de commande, obligeant la sélection d'un employé avant de 
+                    pouvoir le modifier ou le supprimer.
+                    Intégration de la possibilité de changer l'administrateur d'une ligue via le dialogue en ligne de commande.
+                    Mise en place de la gestion des dates dans le dialogue en ligne de commande.
+                </p>
+                <p class="iteration_trois">
+                    <h4>
+                        Itération 3 :
+                    </h4>
+                    Conception de la maquette graphique de l'application.
+                    Développement d'une classe fille de Passerelle pour gérer la connexion à la base de données via JDBC.
+                    Ajout de fonctionnalités permettant la manipulation des données suivantes dans la base de données : 
+                    <ul>
+                        <li>
+                            ajout, modification et lecture d'un root
+                        </li>
+                        <li>
+                            modification, suppression et lecture des employés
+                        </li>
+                        <li>
+                            modification et suppression d'une ligue
+                        </li>
+                        <li>
+                            modification et lecture de l'administrateur d'une ligue
+                        </li>
+                    </ul>
+                </p>
+                <p class="iteration_quatre">
+                    <h4>
+                        Itération 4 :
+                    </h4>
+                    Implémentation d'une interface graphique pour permettre aux administrateurs de gérer leurs ligues plus facilement.
+                    Rédaction d'une documentation d'utilisation destinée aux administrateurs.
+                    Sécurisation des mots de passe par hachage avant leur stockage dans la base de données.
+                </p>
+
+            </div>
             <a href="https://github.com/cynthiaapura/projet_maison_des_ligues" alt="projet web" target="_blank">
-                <li> - Projet web </li>
+                <li> Projet web </li>
             </a>
-        </p>
+        </section>
     </main>
+    <footer>
+        <p>
+            &copy; - MIT - <time datetime="2023-09-07">2023</time>
+        </p>
+    </footer>
+    <script src="../js/app.js"></script>
 </body>
 </html>
