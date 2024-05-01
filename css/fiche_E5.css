@@ -86,6 +86,14 @@ li{
     margin-left: 5rem;
 }
 
+.img_maquette{
+    width: 50%;
+    height: auto; 
+    border-radius: 1rem;
+    margin-block: 6rem;
+    margin-left: 5rem;
+}
+
 p{
     padding-block: 1rem;
     font-size: smaller;
