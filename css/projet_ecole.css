@@ -6,7 +6,7 @@
 }
 
 
-#projets {
+#projets_img{
     width: 50%;
     height: auto; 
     border-radius: 1rem;
@@ -18,16 +18,14 @@
 .projet {
     display: flex;
     align-items: center;
-
 }
-
 
 .texte {
     color: var(--white);
     max-width: 60rem;
     padding-left: 5rem;
     margin-left: 3rem;
-    
+    font-size: 1.5rem;
 }
 
 .lien-git{
