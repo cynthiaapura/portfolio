@@ -88,6 +88,13 @@ li{
     text-decoration-thickness: 1.5px;
     font-size: medium;
 }
+
+.lien-fiche{
+    text-decoration: underline;
+    text-decoration-color: var(--dark-gray);
+    text-decoration-thickness: 1.5px;
+    color: var(--dark);
+}
 p{
     padding-block: 1rem;
     font-size: smaller;
