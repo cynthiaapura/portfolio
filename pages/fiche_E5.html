@@ -39,11 +39,12 @@
                     Cette application, initialement simple et en ligne de commande, était destinée à un seul utilisateur. 
                     Notre mission consistait à désigner un administrateur par ligue et à lui permettre de recenser les employés 
                     de sa propre ligue. Une partie du travail était déjà réalisée, et nous avons eu pour tâche de développer le reste.
+                    <br><br>
                     Le développement de l'application s'est déroulé en quatre itérations distinctes qui seront détaillées plus bas.
 
-                    Le code de l'application est disponible par le biais de ce <a href="https://github.com/ounissaSadaoui/personnel" alt="projet java" class="lien-git" target="_blank"> 
+                    Le code de l'application est disponible par le biais de ce <a href="https://github.com/ounissaSadaoui/personnel" alt="projet java" class="lien-git-e5" target="_blank"> 
                         dépot GitHub </a>
-                    <br>
+                    <br><br>
 
                     L'application est conçue selon une architecture 3-tiers, et nous devions maintenir cette structure applicative. 
                     Les niveaux d'autorisation des utilisateurs sont définis comme suit :
@@ -75,11 +76,15 @@
                 <p class="iteration"> 
                     1. Création d'une représentation des menus du dialogue en ligne de commande à l'aide d'un arbre heuristique
                     <br>
-                    <img src="../asset/arbre_heuristique.png" alt="arbre heuristique" class="img_arbre">
+                    
+                    <img src="../asset/arbre_heuristique.png" alt="arbre heuristique" class="img_iteration">
+                    
                     <br>
                     2. Modélisation de la base de données à l'aide d'un schéma conceptuel (MCD)
                     <br>
-                    <img src="../asset/MCD.svg" alt="mcd" class="img_mcd">
+                    
+                    <img src="../asset/MCD.svg" alt="mcd" class="img_iteration">
+                    
                     <br>
                     3. Adaptation de la couche métier pour gérer les dates d'arrivée et de départ de chaque employé, ainsi que l'ajustement                     
                     des tests unitaires en conséquence
@@ -108,7 +113,9 @@
                 <p class="iteration">
                     1. Conception de la maquette graphique de l'application
                     <br>
-                    <img src="../asset/connexion.png" alt="arbre heuristique" class="img_maquette">
+                    
+                    <img src="../asset/connexion.png" alt="arbre heuristique" class="img_iteration">
+                    
                     <br>
                     2. Développement d'une classe fille de Passerelle pour gérer la connexion à la base de données via JDBC
                     <br>
@@ -141,15 +148,71 @@
                 </p>
 
             </div>
-            
-            <a href="https://github.com/cynthiaapura/projet_maison_des_ligues" alt="projet web" class="lien-git" target="_blank">
-                <li> Projet web </li>
-            </a>
+            <div class="web">
+                <h3>
+                    Présentation du projet WEB
+                </h3>
+                <p>
+                    Dans le cadre de notre projet de développement web de fin d'année, nous sommes chargés de créer un site pour la 
+                    Maison des Ligues. Dans le contexte des Jeux de Paris 2024, notre objectif est d'attirer de nouveaux abonnés en 
+                    proposant la diffusion de toutes les compétitions sportives. Notre site permettra aux utilisateurs d'accéder 
+                    facilement aux différents événements sportifs à venir et même d'ajouter de nouveaux événements.
+                    <br>
+                    <br>
+                    Le projet se décompose en trois étapes distinctes. Tout d'abord, nous avons réalisé la conception visuelle en 
+                    créant une maquette conforme au wireframe fourni. Ensuite, nous avons développé la partie statique du site en 
+                    utilisant HTML/CSS. Enfin, nous devons rendre le site dynamique en utilisant Laravel. Cette phase implique la 
+                    création de la base de données, la mise en place de formulaires d'inscription, la gestion des soumissions 
+                    d'événements et la connexion à la base de données.
+
+                    Le code de l'application est disponible par le biais de ce <a href="https://github.com/cynthiaapura/projet_maison_des_ligues" alt="projet web" class="lien-git-e5" target="_blank">
+                        dépot GitHub </a>
+                    <br><br>
+                    <h4>
+                        Partie 1 - Réalisation de la partie visuelle
+                    </h4>
+                    <p class="iteration"> 
+                        1. Modélisation de la base de données à l'aide d'un schéma conceptuel (MCD)
+                        <br>
+                        
+                        <img src="../asset/MCD_web.svg" alt="mcd" class="img_iteration">
+                        
+                        <br>
+                        2. Création de la maquette à l'aide de FIGMA en respectant le wireframe imposé
+                        <br>
+
+                        <img src="../asset/m2l_web.png" alt="maquette" class="img_iteration">
+                    </p>
+    
+                    <h4>
+                        Partie 2 - Réalisation de la partie statique
+                    </h4>
+                    <p class="iteration">
+                        1. Création des pages HTML et validation du code au validateur W3C
+                        <br>
+                        2. Mise en page en CSS et validation du code au validateur W3C
+                        <br>
+                    </p>
+    
+                    <h4>
+                        Partie 3 - Réalisation de la partie dynamique
+                    </h4>
+                    <p class="iteration">
+                        1. Création de la base de données
+                        <br>
+                        2. Connexion à la base de données avec Laravel
+                        <br>
+                        3. Création des formulaires de connexion avec Laravel
+                        <br>
+                        4. Transmission et récupération des données dans la base de données avec Laravel
+                    </p>
+
+                    
         </section>
     </main>
     <footer>
         <p>
-            &copy; - MIT - <time datetime="2023-09-07">2023</time>
+            &copy; - C.APURA - <time datetime="2023-09-07">2023</time>
         </p>
     </footer>
     <script src="../js/app.js"></script>

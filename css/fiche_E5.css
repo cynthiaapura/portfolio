@@ -64,36 +64,30 @@ li{
     padding-block: 5rem;
     margin-inline: 5rem;
     line-height: 2.5;
+
 }
 
 .list_iteration{
     margin-left: 5rem;
 }
 
-.img_arbre{
-    width: 50%;
-    height: auto; 
+.img_iteration{
+    display: block;
+    width: 100%;
+    height: auto;
     border-radius: 1rem;
-    margin-block: 6rem;
-    margin-left: 5rem;
+    margin-block: 3rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.img_mcd{
-    width: 20%;
-    height: auto; 
-    border-radius: 1rem;
-    margin-block: 6rem;
-    margin-left: 5rem;
+.lien-git-e5{
+    color: var(--dark);
+    text-decoration: underline;
+    text-decoration-color: var(--dark-gray);
+    text-decoration-thickness: 1.5px;
+    font-size: medium;
 }
-
-.img_maquette{
-    width: 50%;
-    height: auto; 
-    border-radius: 1rem;
-    margin-block: 6rem;
-    margin-left: 5rem;
-}
-
 p{
     padding-block: 1rem;
     font-size: smaller;
