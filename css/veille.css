@@ -1,0 +1,110 @@
+.veille_h1{
+    display: flex;
+    text-align: center;
+    background-color: var(--gray);
+    padding: .5rem .5rem .5rem .5rem;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    margin-inline: 5rem;
+    border-radius: .7rem;
+    margin-top: 6rem;
+}
+
+.definition{
+    border: .1rem solid;
+    border-color: var(--white);
+    border-radius: 1rem;
+    margin-inline: 7rem;
+    margin-top: 4rem;
+    padding: 3rem;
+    color: var(--white);
+}
+
+.methodo {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.ancienne-metho {
+    flex: 1; 
+    background-color: var(--gray);
+    padding: 1.2rem;
+    margin-right: .6rem; 
+    margin-left: 5rem;
+    border-radius: .7rem;
+}
+
+.nouvelle-metho {
+    flex: 1; 
+    background-color: var(--gray);
+    padding: 1.2rem;
+    margin-right: 5rem; 
+    margin-left: .6rem;
+    border-radius: .7rem;
+}
+
+.metho-emergentes{
+    background-color: var(--gray);
+    padding: 1.2rem;
+    margin-top: 4rem;
+    margin-inline: 5rem;
+    border-radius: .7rem;
+    text-align: center;
+}
+
+.tdd{
+    background-color: var(--gray);
+    padding: 1.2rem;
+    margin-top: 4rem;
+    margin-inline: 5rem;
+    border-radius: .7rem;
+    text-align: center;
+}
+
+.entreprises {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.impacts {
+    flex: 1;
+    background-color: var(--gray);
+    padding: 1.2rem;
+    margin-right: .6rem; 
+    margin-left: 5rem;
+    border-radius: .7rem;
+}
+
+.bien-faits {
+    flex: 1;
+    background-color: var(--gray);
+    padding: 1.2rem;
+    margin-right: .6rem; 
+    margin-left: .6rem;
+    border-radius: .7rem;
+}
+
+.etude-de-cas{
+    flex: 1;
+    background-color: var(--gray);
+    padding: 1.2rem;
+    margin-right: 5rem; 
+    margin-left: .6rem;
+    border-radius: .7rem;
+}
+
+.cloud-native{
+    background-color: var(--gray);
+    padding: 1.2rem;
+    margin-top: 4rem;
+    margin-inline: 5rem;
+    border-radius: .7rem;
+    text-align: center;
+}
