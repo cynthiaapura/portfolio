@@ -17,16 +17,25 @@
 }
 
 .about_alt{
+    border: .1rem solid;
+    border-color: var(--white);
+    border-radius: 1rem;
+    margin-inline: 7rem;
+    margin-top: 4rem;
+    padding: 3rem;
     color: var(--white);
-    padding-block: 7rem;
-    margin-inline: 8rem;
-    font-size: large;
+}
+
+.about_alt h1{
+    text-align: center;
+    font: bolder;
 }
 
 .missions {
     display: flex;
     flex-direction: row; 
     justify-content: space-between;
+    padding-top: 5rem;
 }
 
 .support {
