@@ -11,6 +11,17 @@
     margin-top: 6rem;
 }
 
+section p{
+    text-align: justify;
+    text-align: left;
+}
+
+.list_metho{
+    font-size: medium;
+    list-style-type: disc;
+    text-align: left;
+}
+
 .definition{
     border: .1rem solid;
     border-color: var(--white);
@@ -19,6 +30,11 @@
     margin-top: 4rem;
     padding: 3rem;
     color: var(--white);
+}
+
+.definition h1{
+    text-align: center;
+    font: bolder;
 }
 
 .methodo {
@@ -63,41 +79,6 @@
     margin-inline: 5rem;
     border-radius: .7rem;
     text-align: center;
-}
-
-.entreprises {
-    display: flex;
-    flex-direction: row; 
-    justify-content: space-between;
-    padding-top: 5rem;
-    text-align: center;
-}
-
-.impacts {
-    flex: 1;
-    background-color: var(--gray);
-    padding: 1.2rem;
-    margin-right: .6rem; 
-    margin-left: 5rem;
-    border-radius: .7rem;
-}
-
-.bien-faits {
-    flex: 1;
-    background-color: var(--gray);
-    padding: 1.2rem;
-    margin-right: .6rem; 
-    margin-left: .6rem;
-    border-radius: .7rem;
-}
-
-.etude-de-cas{
-    flex: 1;
-    background-color: var(--gray);
-    padding: 1.2rem;
-    margin-right: 5rem; 
-    margin-left: .6rem;
-    border-radius: .7rem;
 }
 
 .cloud-native{
