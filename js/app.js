@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", e => {
     const version = new Date().getFullYear();
     dates_footer.innerText = version;
 
+    /* animation des images */
     const projectLinks = document.querySelectorAll('.project-link');
 
     projectLinks.forEach(link => {

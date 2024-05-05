@@ -45,14 +45,20 @@ button, input{
 }
 
 :root{
-    /* mode dark */
-    --green: rgb(72, 116, 124);
-    --dark-gray: rgb(43, 74, 78);
-    --gray: rgb(195, 222, 217);
-    --green-2: rgb(83, 126, 131);
-    --dark: rgb(0, 0, 0);
-    --white: rgb(255, 255, 255);
-
     /* mode light */
+    --green: rgb(72, 116, 124); /* fond clair */
+    --dark-gray: rgb(43, 74, 78); /* bgc h4 */
+    --gray: rgb(209, 224, 222); /* bgc h2 */
+    --green-2: rgb(83, 126, 131); 
+    --dark: #000000; /* texte */
+    --white: rgb(255, 255, 255); /* texte */
 
+    /* mode dark */
+    --dark-bg: #1e1e1e;  /* Fond sombre */
+    --dark-text: #e6e6e6; /* Texte */
+    --dark-text-2: #e6e6e6; /* Texte */
+    --dark-green: rgb(72, 116, 124); /* Vert principal */
+    --dark-green-2: #325056; /* Vert assombri */
+    --dark-gray-1: #14282a; /* Gris foncé */
+    --dark-gray-2: rgb(195, 222, 217); /* Gris clair */
 }

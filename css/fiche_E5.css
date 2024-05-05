@@ -2,6 +2,7 @@
     display: flex;
     text-align: center;
     background-color: var(--gray);
+    color: var(--dark);
     padding: .5rem .5rem .5rem .5rem;
     align-items: center;
     justify-content: center;
@@ -40,6 +41,7 @@ h3 {
     font-size: x-large;
     padding-block: 3rem;
     text-align: center;
+    color: var(--dark);
     
 }
 
@@ -47,9 +49,9 @@ h4{
     padding-block: 2rem;
     border: .1rem solid;
     border-color: var(--dark);
-    border-radius: 1rem;
     background-color: var(--dark-gray);
-    color: var(--white);
+    border-radius: 1rem;
+    color: var(--gray);
     text-align: center;
     font-size: larger;
 }
@@ -58,6 +60,7 @@ li{
     font-size: smaller;
     list-style-type: disc;
     margin-left: 2rem;
+    color: var(--dark);
 }
 
 .iteration{
