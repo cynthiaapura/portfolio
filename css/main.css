@@ -46,7 +46,7 @@ header {
     cursor: pointer;
     color: var(--white);
 }
-.img {
+.light-mode .img {
     flex: 1;
     height: 100vh;
     background: url("../asset/fond_accueil.jpg")no-repeat fixed center center  / cover;
@@ -54,6 +54,13 @@ header {
     display: flex;
 }
 
+.dark-mode .img{
+    flex: 1;
+    height: 100vh;
+    background: url("../asset/fond_dark.png")no-repeat fixed center center  / cover;
+    z-index: -1;
+    display: flex;
+}
 #name{
     color: var(--white);
 }
