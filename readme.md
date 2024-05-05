@@ -11,7 +11,7 @@
 ____
 
 ### Charte Graphique 
-![charte](./contenu/charte_graphique.png)
+![charte](./contenu/)
 
 ____
 

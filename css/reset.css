@@ -49,7 +49,7 @@ button, input{
     --green: rgb(72, 116, 124); /* fond clair */
     --dark-gray: rgb(43, 74, 78); /* bgc h4 */
     --gray: rgb(209, 224, 222); /* bgc h2 */
-    --green-2: rgb(83, 126, 131); 
+    --green-2: #537e83; 
     --dark: #000000; /* texte */
     --white: rgb(255, 255, 255); /* texte */
 
