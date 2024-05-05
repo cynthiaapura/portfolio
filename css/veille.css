@@ -72,20 +72,37 @@ section p{
     text-align: center;
 }
 
-.tdd{
-    background-color: var(--gray);
-    padding: 1.2rem;
-    margin-top: 4rem;
-    margin-inline: 5rem;
-    border-radius: .7rem;
+.tdd_ddd {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    padding-top: 5rem;
     text-align: center;
 }
 
-.cloud-native{
+.tdd{
+    flex: 1; 
     background-color: var(--gray);
     padding: 1.2rem;
-    margin-top: 4rem;
-    margin-inline: 5rem;
+    margin-right: .6rem; 
+    margin-left: 5rem;
     border-radius: .7rem;
-    text-align: center;
+}
+
+.bdd{
+    flex: 1; 
+    background-color: var(--gray);
+    padding: 1.2rem;
+    margin-right: .6rem; 
+    margin-left: .6rem;
+    border-radius: .7rem;
+}
+
+.ddd{
+    flex: 1; 
+    background-color: var(--gray);
+    padding: 1.2rem;
+    margin-right: 5rem; 
+    margin-left: .6rem;
+    border-radius: .7rem;
 }

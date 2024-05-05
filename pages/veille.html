@@ -225,11 +225,13 @@
                     DevOps vise à accroître l'efficacité et la satisfaction client. Toutefois, sa mise en place peut être difficile, 
                     nécessitant des changements culturels et organisationnels significatifs.
                     <br>
-                    Opter pour la méthodologie DevOps présente l'avantage de favoriser une collaboration efficace entre les équipes de 
-                    développement et les équipes opérationnelles, ce qui permet d'accélérer le déploiement des applications, de réduire 
-                    les délais de livraison et d'améliorer la qualité des logiciels. En outre, DevOps offre une meilleure réactivité aux 
-                    besoins du marché et une augmentation de la satisfaction client grâce à des mises à jour fréquentes et des cycles de 
-                    développement rapides.
+                    L'adoption de la méthodologie DevOps se traduit par une amélioration de la collaboration entre les équipes de 
+                    développement et opérationnelles, conduisant à une accélération du déploiement des applications, une réduction 
+                    des délais de livraison et une amélioration de la qualité des logiciels. De plus, DevOps permet une réactivité 
+                    accrue aux besoins du marché et une satisfaction client renforcée grâce à des mises à jour fréquentes et des cycles 
+                    de développement rapides. Il est à noter que l'intégration croissante de technologies cloud-native, telles que les 
+                    conteneurs et les microservices, dans la plupart des projets DevOps nécessite une adaptation des stratégies de sécurité, 
+                    ce qui a donné naissance à la méthodologie DevSecOps.
                     <br><br>
                     De son côté, DevSecOps étend les principes de DevOps en y intégrant la sécurité dès les premières étapes du processus 
                     de développement. En anticipant les besoins de sécurité dès la phase de conception et en automatisant les mesures de 
@@ -263,38 +265,84 @@
                 </p>
             </div>
         </section>
-
-        <section class="tdd">
-            <div>
-                <h1>
-                    Test Driven Development & Domain Driven Design
-                </h1>
-                <p>
-                    
-                </p>
-            </div>
-
-        </section>
-
-        <section class="cloud-native">
-            <div>
-                <h1>
-                    Intelligence Artificielle & Cloud-native
-                </h1>
-                <h4>
-                    Intelligence Artificielle
-                </h4>
-                <p>
-                </p>
-                <h4>
-                    Cloud-Native
-                </h4>
-                <p>
-                </p>
-            </div>
-        </section>
         
- 
+        <section class="tdd_ddd">
+            <div class="tdd">
+                <h4>
+                    Test Driven Development
+                </h4>
+                <p>
+                    La <b>TDD (Test Driver Development)</b> est une méthode de développement logiciel qui implique l'écriture des tests 
+                    unitaires d'une fonctionnalité avant de coder cette dernière. Cette pratique, largement utilisée dans les 
+                    environnements d'intégration continue comme XP, Scrum XP ou DevOps, vise à anticiper les résultats attendus 
+                    du code avant même son écriture. Bien que le TDD renforce la qualité des produits en limitant les régressions 
+                    futures, son objectif principal est de guider les développeurs vers la solution attendue en les conduisant à 
+                    résoudre les problèmes posés par les tests. 
+                    <br><br>
+                    Cette approche présente l'avantage de prévenir les erreurs dès 
+                    les premières étapes du développement, ce qui permet d'améliorer la robustesse et la fiabilité du code. 
+                    Cependant, bien que bénéfique, la mise en œuvre du TDD peut parfois ralentir le processus de développement 
+                    initial, car elle exige une réflexion approfondie sur les exigences et les résultats attendus avant même de 
+                    commencer à coder. Malgré cela, l'intégration du TDD dans les pratiques de développement offre un moyen 
+                    efficace de garantir la qualité du code et d'optimiser le processus de développement logiciel.
+                </p>
+            </div>
+            <div class="bdd">
+                <h4>
+                    Behavior Driven Development
+                </h4>
+                <p>
+                    La <b>BDD (Behavior Driven Development)</b> est une pratique Agile qui vise à créer des tests fonctionnels avec un 
+                    langage naturel compris de tous, étant une extension de la TDD. Son objectif est d'assurer une couverture 
+                    plus complète des risques de régression en testant l'enchaînement complet des fonctionnalités pour créer 
+                    un parcours cohérent. Cette approche favorise le rapprochement entre les équipes techniques et fonctionnelles,
+                    s'alignant ainsi avec les principes agiles. En encourageant la participation des équipes non techniques, 
+                    l'automatisation des scénarios pour assurer la non-régression et le commentaire du code, l'écriture des 
+                    tests comportementaux avant le code associé, et en améliorant la compréhension du comportement attendu 
+                    pour les équipes techniques, le framework BDD fournit un cadre précis pour le développement logiciel.
+                    <br><br>
+                    L'intégration de la BDD présente plusieurs avantages, notamment une meilleure collaboration entre les équipes 
+                    techniques et fonctionnelles, une réduction des risques de régression grâce à des tests fonctionnels complets, 
+                    une amélioration de la compréhension des comportements attendus pour les développeurs, et une documentation vivante 
+                    du code grâce aux tests automatisés. Cependant, l'adoption de la BDD peut également présenter des inconvénients, 
+                    tels que la nécessité d'une bonne maîtrise du langage naturel pour décrire les comportements, une courbe 
+                    d'apprentissage pour les équipes techniques peu familières avec cette pratique, et des efforts supplémentaires 
+                    pour maintenir et mettre à jour les tests fonctionnels en phase avec les évolutions du code. Malgré ces défis, 
+                    l'intérêt de la BDD réside dans sa capacité à assurer une meilleure qualité logicielle, une communication efficace 
+                    entre les équipes et une compréhension commune des exigences du projet.
+                </p>
+            </div>
+            <div class="ddd">
+                <h4>
+                    Domain Driven Design
+                </h4>
+                <p>
+                    Le <b>Domain Driven Design (DDD)</b>, également connu sous le nom de "conception pilotée par le domaine", est une approche 
+                    de conception largement adoptée dans la communauté du software craftsmanship. Il propose une méthodologie de conception 
+                    logicielle basée sur deux principes fondamentaux : premièrement, les conceptions métier complexes doivent reposer sur un 
+                    modèle de domaine spécifique ; deuxièmement, l'accent est mis sur le domaine et la logique métier plutôt que sur les 
+                    contraintes techniques. En d'autres termes, le DDD vise à ce que la conception d'une application reflète fidèlement les 
+                    règles métier sous-jacentes, plutôt que d'être dictée par des considérations purement techniques. L'intérêt du DDD réside 
+                    dans sa capacité à favoriser une meilleure compréhension et une modélisation plus précise des domaines complexes, ce qui 
+                    conduit à des solutions logicielles mieux adaptées aux besoins réels des utilisateurs.
+                    <br><br>
+                    Parmi les concepts clés du DDD, on trouve en premier lieu le <b>Bounded Context</b>, qui définit des limites précises à l'intérieur 
+                    desquelles un modèle de domaine particulier est valide et applicable. Ensuite, <b>l'Ubiquitous Language</b> désigne un langage 
+                    commun partagé entre tous les membres de l'équipe de développement et les parties prenantes, permettant une compréhension 
+                    et une communication claires des concepts métier. Enfin, la <b>Modélisation des domaines</b> implique la création de modèles 
+                    conceptuels représentant les différents aspects du domaine métier, facilitant ainsi la traduction des exigences métier en 
+                    structures logicielles.
+                    <br><br>
+                    Les avantages du DDD résident dans sa capacité à aligner étroitement la conception logicielle sur les besoins réels du 
+                    domaine métier, ce qui améliore la qualité et la pertinence des solutions développées. Cependant, sa mise en œuvre peut 
+                    parfois être complexe et nécessiter une compréhension approfondie des concepts et des techniques associées. De plus, le 
+                    DDD peut exiger un investissement initial plus important en termes de temps et de ressources, en particulier dans les phases 
+                    initiales de modélisation des domaines et d'établissement d'une langue ubiquitaire. Malgré ces défis, le DDD reste une 
+                    approche précieuse pour les projets logiciels souhaitant mettre l'accent sur la résolution efficace des problèmes métier 
+                    complexes.
+                </p>
+            </div>
+        </section>
     </main>
     <footer>
         <p>
