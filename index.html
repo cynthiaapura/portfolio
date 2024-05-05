@@ -2,6 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
@@ -34,8 +35,8 @@
             </h1>
         </section>
 
-        <section class="general_section">
-            <h2 id="about" class="section-page">
+        <section id="about" class="general_section">
+            <h2 class="section-page">
                 A propos
             </h2>
             <div class="bg-tile">
@@ -48,65 +49,76 @@
             </div>
 
 
-            <h2 id="skills" class="section-page">
-                Compétences
-            </h2>
-            <div class="gallery-primary">
-                <img src="./asset/html.svg" alt="logo1" loading="lazy">
-                <img src="./asset/css.svg" alt="logo2" loading="lazy">
-                <img src="./asset/java.svg" alt="logo3" loading="lazy">
-                <img src="./asset/js.svg" alt="logo4" loading="lazy">
-                <img src="./asset/php.svg" alt="logo5" loading="lazy">
-            </div>
+            <section id="skills" class="titre">
+                <h2 class="section-page">
+                    Compétences
+                </h2>
+                <div class="gallery-primary">
+                    <img src="./asset/html.svg" alt="logo1" loading="lazy">
+                    <img src="./asset/css.svg" alt="logo2" loading="lazy">
+                    <img src="./asset/java.svg" alt="logo3" loading="lazy">
+                    <img src="./asset/js.svg" alt="logo4" loading="lazy">
+                    <img src="./asset/php.svg" alt="logo5" loading="lazy">
+                </div>
+            </section>
+
+            <section id="projects" class="titre">
+                <h2 class="section-page">
+                    Projets
+                </h2>
+                <div class="gallery-secondary" role="region" aria-label="project">
+
+                    <a href="./pages/projet_ecole.html" class="project-link">
+                        <img src="./asset/refont_web.png" alt="projet ecole" loading="lazy">
+                        <div class="overlay">Projets école</div>
+                    </a>
+                    <a href="./pages/alternance.html" class="project-link">
+                        <img src="./asset/logo_maarch.jpg" alt="projet pro" loading="lazy">
+                        <div class="overlay">Alternance</div>
+                    </a>
+                    <a href="./pages/fiche_E5.html" class="project-link">
+                        <img src="./asset/e5.png" alt="fiche E5" loading="lazy">
+                        <div class="overlay">Projets E5</div>
+                    </a>
+                </div>
+            </section>
+
+            <section id="veille" class="titre">
+                <h2 id="veille" class="section-page">
+                    Veille technologique
+                </h2>
+                <div class="dsc-veille">
+                    
+                    En tant qu'alternante Product Owner, je suis soucieuse d'aider mon manager à maintenir notre équipe Scrum à la pointe des méthodologies 
+                    de développement logiciel. Ma veille sur l'évolution de ces pratiques répond à la volonté de mon entreprise de rester compétitive et 
+                    à mon désir personnel de suivre les tendances émergentes.
+                </div>
+                <div class="lien-dsc">
+                    <a href="./pages/veille.html">    
+                        Si vous souhaitez en savoir plus, cliquez ici !
+                    </a>
+                </div>
+            </section>
 
 
-            <h2 id="projects" class="section-page">
-                Projets
-            </h2>
-            <div class="gallery-secondary" role="region" aria-label="project">
+            <section id="contact" class="titre">
+                <h2 id="contact" class="contact-page">
+                    Contact
+                </h2>
+                <div class="items">
+                    <a href="https://www.linkedin.com/in/cynthia-apura-802508207" target="_blank">
+                    <img src="./asset/linkedin-logo.svg" alt="linkedin">
+                    </a>
 
-                <a href="./pages/projet_ecole.html">
-                    <img src="./asset/refont_web.png" alt="projet ecole" loading="lazy">
-                </a>
-                <a href="./pages/alternance.html">
-                    <img src="./asset/logo_maarch.jpg" alt="projet pro" loading="lazy">
-                </a>
-                <a href="./pages/fiche_E5.html">
-                    <img src="./asset/e5.png" alt="fiche E5" loading="lazy">
-                </a>
-            </div>
-            
-            <h2 id="veille" class="section-page">
-                Veille technologique
-            </h2>
-            <div class="dsc-veille">
-                
-                En tant qu'alternante Product Owner, je suis soucieuse d'aider mon manager à maintenir notre équipe Scrum à la pointe des méthodologies 
-                de développement logiciel. Ma veille sur l'évolution de ces pratiques répond à la volonté de mon entreprise de rester compétitive et 
-                à mon désir personnel de suivre les tendances émergentes.
-            </div>
-            <div class="lien-dsc">
-                <a href="./pages/veille.html">    
-                    Si vous souhaitez en savoir plus, cliquez ici !
-                </a>
-            </div>
+                    <a href="https://github.com/cynthiaapura" target="_blank">  
+                        <img src="./asset/github-logo.svg" alt="github">
+                    </a>
 
-            <h2 id="contact" class="contact-page">
-                Contact
-            </h2>
-            <div class="items">
-                <a href="https://www.linkedin.com/in/cynthia-apura-802508207" target="_blank">
-                   <img src="./asset/linkedin-logo.svg" alt="linkedin">
-                </a>
-
-                <a href="https://github.com/cynthiaapura" target="_blank">  
-                    <img src="./asset/github-logo.svg" alt="github">
-                </a>
-
-                <a href="mailto:cynthia.apura@gmail.com">
-                    <img src="./asset/mail.svg" alt="mail">     
-                </a>
-            </div>
+                    <a href="mailto:cynthia.apura@gmail.com">
+                        <img src="./asset/mail.svg" alt="mail">     
+                    </a>
+                </div>
+            </section>
         </section>
     </main>
     <footer>
