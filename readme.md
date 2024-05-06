@@ -6,7 +6,12 @@
 
 
 ### Wireframe
-![cover](./contenu/wireframe.png)
+
+J'ai créer un wireframe pour avoir une idée du rendu final de mon portfolio.
+
+Page principale : 
+![cover](./contenu/wireframe_accueil.png)
+![cover2](./contenu/wireframe_site.png)
 
 ____
 
