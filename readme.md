@@ -11,8 +11,15 @@
 ____
 
 ### Charte Graphique 
-![charte](./contenu/)
+Pour ma charge graphique j'ai choisi des nuances vertes
+Pour le light mode :
+![charte](./contenu/charte_graphique.png)
 
+Pour le dark mode j'ai voulu rester dans les mêmes tons :
+![charte-dark-mode](./contenu/dark-mode.png)
+
+Pour mon icone, j'ai voulu faire simple en gardant la couleur dominante de mon site en y ajoutant mes initales.
+![icone](./favicon/android-chrome-192x192.png)
 ____
 
 
